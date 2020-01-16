@@ -113,6 +113,7 @@ Displays the current backlight level with xbacklight
 Displays the currently playing artist and song title in the Spotify application.
 ```
 [🎹 Yes - Roundabout]
+```
 Dependencies: ```spotify-now```
 
 ## Installation
