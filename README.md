@@ -1,3 +1,5 @@
+A fork of dwm-bar changed to work with my setup. I also added a spotify function to check for the currently playing song.
+This adds [spotify-now](https://github.com/micahco/spotify-now) as a dependency.
 # dwm-bar
 A modular statusbar for DWM
 ![screenshot](sshot.png)
@@ -107,11 +109,16 @@ Displays the current backlight level with xbacklight
 ```
 [☀ 80]
 ```
-Dependencies: ```xbacklight```
+### dwm_spotify
+Displays the currently playing artist and song title in the Spotify application.
+```
+[🎹 Yes - Roundabout]
+Dependencies: ```spotify-now```
+
 ## Installation
 1. Clone and enter the repository:
 ```
-$ git clone https://github.com/joestandring/dwm-bar
+$ git clone https://github.com/mcallistertyler95/dwm-bar
 $ cd dwm-bar
 ```
 2. Make the script executable
@@ -154,11 +161,10 @@ Whereas, if it is not set it will display:
 [MAIL 0]
 ```
 ## Acknowledgements
+Forked from:
+* [Joe Standring](https://github.com/joestandring/countdown)
 Code for some functions was modified from:
 * [Klemens Nanni](https://notabug.org/kl3)
 * [@boylemic](https://github.com/boylemic/configs/blob/master/dwm_status)
 * [Parket Johnson](https://github.com/ronno/scripts/blob/master/xsetcmus)
 * [suckless.org](https://dwm.suckless.org/status_monitor/)
-## More to come!
-* dwm_bluez function to show currently connected Bluetooth device using bluez
-* dwm_mpd

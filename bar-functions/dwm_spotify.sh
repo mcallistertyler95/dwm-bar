@@ -12,7 +12,7 @@ dwm_spotify() {
         if [ "$IDENTIFIER" = "unicode" ]; then
             printf "🎹 %s" "$CURRENTLY_PLAYING"
         else
-            printf "MUSIC %s" "$CURRENTLY_PLAYING"
+            printf "SPTFY %s" "$CURRENTLY_PLAYING"
         fi
         printf "%s\n" "$SEP2"
     fi
