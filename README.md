@@ -163,7 +163,7 @@ Whereas, if it is not set it will display:
 ```
 ## Acknowledgements
 Forked from:
-* [Joe Standring](https://github.com/joestandring/countdown)
+* [Joe Standring](https://github.com/joestandring)
 
 Code for some functions was modified from:
 * [Klemens Nanni](https://notabug.org/kl3)
